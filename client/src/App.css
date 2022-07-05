@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Murecho:wght@300&family=PT+Serif&family=Pavanam&display=swap");
+/*
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+*/
+.container-fluid {
+  height: 100%;
+}
+
+:root {
+  --primary-color: #1d1d1b;
+  --secondary-color: #6d6d6c;
+  --seconday-color-light: #a0a09f;
+  --white-color: #fafafa;
+}
+
+.heading1 {
+  font-family: "PT Serif", sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  color: var(--primary-color) !important;
+}
+.nav-item {
+  padding: 2% 2%;
+}
+
+.heading1:hover {
+  border-bottom: #1d1d1b 1px solid;
+}
+
+.left-navbar {
+  min-height: 100%;
+  background: #1d1d1b;
+  width: 12%;
+}
+
+.nav-icon {
+  text-align: center;
+}
+
+i {
+  color: var(--white-color);
+}
+
+.vstack {
+  padding: 15px 5px;
+}
+
+.flex-contain {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.myrow1 {
+  overflow: hidden;
+  max-height: 90px;
+  min-height: 90px;
+}
+
+.myrow2 {
+  width: 100%;
+  display: flex;
+  flex: auto;
+}
+
+.nav-icon {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-icon:hover {
+  background: #6d6d6c;
+}
+
+.container-verticalflex {
+  min-height: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-body {
+  background: #a0a09f42;
+}

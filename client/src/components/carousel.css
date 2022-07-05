@@ -1,0 +1,43 @@
+.carousel-container {
+  padding: 3% 0;
+  min-height: 100%;
+  position: relative;
+  flex: 70%;
+  overflow: hidden;
+}
+
+.carouselitem {
+  position: absolute;
+  width: 100%;
+  transition: all 0.5s;
+  background-image: url("https://upl.roob.la/2011/02/rt4fxvfc8q57fgp.jpg");
+  background-size: cover;
+  min-height: 100%;
+}
+
+.carouselitem1 {
+  width: 100%;
+  background-image: url("https://cdnuploads.aa.com.tr/uploads/PhotoGallery/2021/05/06/thumbs_b2_b2bd01de111603eb660a75be67a25bd7.jpg");
+  background-size: cover;
+}
+
+.carousel-heading {
+  position: absolute;
+  left: 2%;
+  bottom: 0;
+  color: var(--white-color);
+  font-family: "Pavanam";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.carousel-control {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+button {
+  background: transparent;
+  border: 0;
+}

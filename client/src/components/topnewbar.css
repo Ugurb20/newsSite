@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Murecho:wght@300&family=PT+Serif:ital@0;1&family=Pavanam&family=Roboto:wght@900&display=swap");
+.newbar {
+  width: 100%;
+  display: flex;
+  font-family: "Pavanam";
+  font-size: 13px;
+  background: var(--white-color);
+  height: 30px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.newbarleft {
+  flex: 1;
+  background: var(--primary-color);
+  color: var(--white-color);
+  text-align: start;
+  padding: 0 2%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  -webkit-clip-path: polygon(0% 0%, 75% 0%, 94% 50%, 75% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 75% 0%, 94% 50%, 75% 100%, 0% 100%);
+  height: 100%;
+
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.newbarright {
+  flex: 10;
+  padding: 0 2px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+
+.dot-toggle {
+  display: inline-block;
+  padding-left: 2%;
+}
+
+.hidden {
+  display: none;
+}

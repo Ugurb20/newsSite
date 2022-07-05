@@ -1,0 +1,42 @@
+.places-to-visit-container {
+  flex: 30%;
+  padding: 4% 2%;
+  min-height: 100%;
+}
+
+ul {
+  display: block;
+  list-style: none;
+  padding-left: 0;
+  min-height: 100%;
+}
+
+li {
+  display: block;
+  min-height: 90px;
+}
+
+.place-photo {
+  flex: 40%;
+  min-height: 100%;
+  background-size: cover;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.place-name {
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  flex: 60%;
+}
+
+.li-flex-container {
+  padding-bottom: 5%;
+  display: flex;
+  width: 100%;
+  min-height: 90px;
+}
+
+.head {
+  padding-bottom: 5%;
+}

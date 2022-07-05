@@ -1,0 +1,37 @@
+.card-news {
+  width: 30%;
+  max-height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-news-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-photo {
+  flex: 50%;
+  width: 100%;
+  background-size: cover;
+}
+
+.card-title {
+  padding: 1% 0.3%;
+  font-family: "Pavanam";
+  font-weight: 600;
+  font-size: 20px;
+}
+.card-title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card-description {
+  padding: 1% 0.3%;
+  font-family: "Pavanam";
+  font-weight: 200;
+  font-size: 15px;
+}
